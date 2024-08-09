@@ -1,11 +1,17 @@
 # Case Change
  
 `lower()`: it changes all uppercase characters to lowercase. 
+
 `capitalize()`: it changes the first character of the string to uppercase.
+
 `upper()`: it changes all lowercase characters to uppercase. 
+
 `title()`: it changes string to title case. 
+
 `casefold()`: it implements caseless string matching.
+
 `swapcase()`: it changes all uppercase characters to lowercase and lowercase to uppercase. 
+
 
 # Checks
  

@@ -48,4 +48,4 @@ class MaxSubArry:
 
 if __name__ == "__main__":
     ob = MaxSubArry()
-    print(ob.max_sub_arry([1,19,5,-4,7,18,15,-10]))
+    print(ob.max_sub_arry([100, -2, 5, 10, 11, -4, 15, 9, 18, -2, 21, -11]))

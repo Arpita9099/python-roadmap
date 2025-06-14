@@ -5,10 +5,6 @@
 #             return False
 #         return True
 
-# ob = Solution()
-# assert ob.hasDuplicate([1,3,2,2]) == True
-# assert ob.hasDuplicate([1,3,5,2]) == False
-# assert ob.hasDuplicate([2,2]) == True
 
 class Solution:
     def hasDuplicate(self, nums: list[int]) -> bool:
@@ -19,6 +15,8 @@ class Solution:
             else:
                 l.append(num)
         return False
+    
+    
 ob = Solution()
 assert ob.hasDuplicate([1,3,2,2]) == True
 assert ob.hasDuplicate([1,3,5,2]) == False
